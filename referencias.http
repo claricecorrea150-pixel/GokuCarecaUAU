@@ -1,0 +1,26 @@
+GET http://localhost:3000/dragonball
+
+
+###
+
+POST http://localhost:3000/dragonball
+Content-Type: application/json
+
+{
+    "nome": "goku",
+    "ki": "não",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQPc-WeExwvC9PitIgUry_cc6JC4icI_NHUmQJjhDbQ&s",
+    "idade": "47"
+}
+###
+
+POST http://localhost:3000/dragonball
+Content-Type: application/json
+
+{
+    "nome": "android 18",
+    "ki": "talvez",
+    "imagem": "chttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA78WjFC2I1VHklrwo-MoE5OT78PzDoclwF8xHdY5uME84lyZVglPApYI&s=10",
+    "idade": "42"
+}
+
